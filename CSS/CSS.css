@@ -36,6 +36,26 @@ body {
     text-align: center;
 }
 
+/* Estilos para la sección de "Lenguajes de Programación" */
+.languages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.language {
+    text-align: center;
+    width: 150px;
+}
+
+.language-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+
 #container {
     display: flex;
     flex-direction: column;
