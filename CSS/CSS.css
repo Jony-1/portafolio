@@ -4,8 +4,36 @@ body {
     padding: 0;
 }
 
-header {
-    /* Estilos para el encabezado */
+/* Estilos para el nuevo contenedor del encabezado */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para el contenedor de imagen (logo y foto de perfil) */
+.header-image {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Ajusta el margen derecho según tu preferencia */
+}
+
+/* Estilos para el logo en el encabezado */
+.header-logo, .header-profile-pic {
+    width: 100px; /* Ajusta el tamaño de la imagen según tu preferencia */
+    height: 100px; /* Ajusta el tamaño de la imagen según tu preferencia */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px; /* Ajusta el margen derecho según tu preferencia */
+}
+
+/* Estilos para el texto en el encabezado */
+.header-text {
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.about-me-section {
+    text-align: center;
 }
 
 #container {
@@ -14,15 +42,12 @@ header {
     min-height: 100vh;
 }
 
-.content {
-    flex-grow: 1;
-    padding: 20px;
-}
-
 footer {
     text-align: center;
     background-color: #333;
     color: white;
     padding: 10px;
     margin-top: auto;
+    
 }
+

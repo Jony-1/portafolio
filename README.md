@@ -1,3 +1,3 @@
 # portafolio
-# jonathan sierra galindo
+# Jonathan Sierra Galindo
 portafolio laboral

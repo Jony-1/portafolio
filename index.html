@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/CSS.css">
     <link rel="icon" type="image/vnd.icon" href="imgs/favicon-removebg-preview.png">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -14,13 +14,35 @@
 
 <body>
     <div id="container" lass="d-flex flex-column min-vh-100">
+        <div class="night-sky">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <!-- Añade más estrellas según lo desees -->
+        </div>
         <div class="content">
+           
             <header class="bg-light text-center py-5">
-                <img src="imgs/favicon-removebg-preview.png" alt="">
-                <h1>JONATHAN SIERRA</h1>
-                <p>Desarrollador</p>
+                <div class="header-content">
+                    <div class="header-image">
+                        <img src="imgs/favicon-removebg-preview.png" alt="Logo" class="header-logo">
+                        <img src="imgs/perfil.jpg" alt="Foto de perfil" class="header-profile-pic">
+                    </div>
+                    <div class="header-text">
+                        <h1>JONATHAN SIERRA</h1>
+                        <p>Desarrollador</p>
+                    </div>
+                </div>
             </header>
+
+            <section class="container mt-5 about-me-section">
+                <h2 class="mb-3">Acerca de Mí</h2>
+                <p>Soy un apasionado desarrollador con experiencia en...</p>
+                <p>Me encanta trabajar en proyectos desafiantes...</p>
+            </section>
+            
             <section class="container mt-5">
+               
                 <h2 class="mb-4">Proyectos Destacados</h2>
                 <div class="row">
                     <!-- proyecto #1 -->
