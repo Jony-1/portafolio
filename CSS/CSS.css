@@ -30,7 +30,7 @@ body {
 	overflow: hidden;
 	height: 100%;
 	bottom: -1px;
-	background: linear-gradient(to bottom, #ee0979, #ff6a00);
+	background: linear-gradient(to bottom, #0d87ad, #181716);
 	z-index: 5;
 }
 ul {
